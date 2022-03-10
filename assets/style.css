@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+.header{
+    background-color: #19276e;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__brandlogo{
+    width: 8vh;
+    height: 8vh;
+}
+.main{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 92vh;
+}
+.main__largetext{
+    font-size: 80px;
+}
