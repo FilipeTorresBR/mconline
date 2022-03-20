@@ -5,7 +5,6 @@
 }
 .content{
     display: flex;
-    flex-direction: row;
     max-width: 100vw;
     height: 100vh;
 }
@@ -18,8 +17,12 @@
     justify-content: center;
 }
 .header__brandlogo{
-    width: 8vh;
-    height: 8vh;
+    width: 8vw;
+    height: 8vw;
+}
+.header__brandcontact{
+    width: 15vw;
+    height: 15vw;
 }
 .aside{
     background: linear-gradient(90deg, rgba(45,78,166,1) 0%, rgba(47,81,171,1) 100%);  
@@ -56,15 +59,26 @@
 .main__fatura{
     display: flex;
     flex-direction: column;
-    padding: 7vw;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+}
+#formFatura{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .main__fatura--input{
     padding: 10px;
     border-width: 0px;
     border-radius: 10px;
-    width: 15vw;
+    width: 13vw;
+    font-size: 16px;
     margin: 0.5vw 0;
-    background: #eee;
+    background: #ddd;
+    text-align: center;
+    color: #000;
 }
 .main__fatura--anchor{
     padding: 10px;
@@ -73,7 +87,7 @@
     width: 15vw;
     margin: 0.5vw 0;
     font-size: 16px;
-    background: #eee;
+    background: #ddd;
     text-align: center;
     color: black;
     text-decoration: none;
@@ -82,8 +96,11 @@
 .planos__area{
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
     gap: 1vw;
+    width: 100vw;
+    height: 100vh;
 }
 .planos{
     display: block;
@@ -122,14 +139,14 @@
     display: flex;
     flex-direction: column;
     gap: 0.5vw;
+    font-size: 1vw;
 }
 .footer{
     height: 15vh;
     border-top: 1px solid #ccc;
+    background: linear-gradient(90deg, rgba(45,78,166,1) 0%, rgba(47,81,171,1) 100%);  
+
 }
 .hidden{
-    display: none;
-}
-.show{
-    display: block;
+    display: none !important;
 }
